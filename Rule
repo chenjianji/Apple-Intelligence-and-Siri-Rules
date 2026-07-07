@@ -1,9 +1,28 @@
-# Siri 与 搜索服务
-DOMAIN,guzzoni.apple.com
-DOMAIN-SUFFIX,*.smoot.apple.com
+# =======================================================
+# 规则名称: Apple Intelligence & Siri 专属优化规则
+# 适用软件: Loon, Shadowrocket, Quantumult X 等
+# 匹配策略: 请统一指派给境外代理策略组 (如 Proxy)
+# =======================================================
 
-# Apple Intelligence 私有云计算 (PCC)
+# --- Siri 与 系统搜索核心服务 ---
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,ls.apple.com
+
+# --- Apple Intelligence 资格审查与鉴权 (关键) ---
+DOMAIN,eligibility.apple.com
+DOMAIN-SUFFIX,eligibility.apple
+
+# --- Apple Intelligence 私有云计算 (PCC) 隐私盲中继 ---
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apple-relay.apple.com
 DOMAIN,cp4.cloudflare.com
+
+# --- Apple Intelligence 图像/文本生成模型与组件分发 ---
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,cdn-apple.com
+
+# --- Apple Intelligence 外部集成服务 (如系统内置 ChatGPT 联动) ---
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
