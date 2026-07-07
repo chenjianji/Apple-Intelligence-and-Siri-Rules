@@ -7,6 +7,7 @@
 # --- Siri 与 系统搜索核心服务 ---
 DOMAIN,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,ls.apple.com
 
 # --- Apple Intelligence 资格审查与鉴权 (关键) ---
 DOMAIN,eligibility.apple.com
