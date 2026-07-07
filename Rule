@@ -26,3 +26,9 @@ DOMAIN-SUFFIX,cdn-apple.com
 # --- Apple Intelligence 外部集成服务 (如系统内置 ChatGPT 联动) ---
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
+
+# OpenAI 核心鉴权与 API 扩展
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,observeit.net
